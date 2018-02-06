@@ -1,0 +1,28 @@
+                            
+/* TEAM */                            
+Team name: Swamp Bisons
+Education: University of Colorado (CU)
+City: Boulder, CO
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+David Hasselschaal
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+Last update: 2018/02/06 
+Standards: HTML5, CSS3,..
+Components: Modernizr, jQuery, etc.
+Software: HTML, CSS, JS
