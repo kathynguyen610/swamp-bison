@@ -1,4 +1,19 @@
 body {
 	background:#333;
 	color:#f2f2f2;
+	height:100%;
+	margin:0;
+}
+
+.parallax1{
+	position:relative;
+	background-attachment: fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.parallax1{
+	background-image:url(../img/skulls.jpg);
+	min-height:500px;
 }
