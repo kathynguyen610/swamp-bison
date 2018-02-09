@@ -1,11 +1,12 @@
-body {
+body,html {
 	background:#333;
 	color:#f2f2f2;
 	height:100%;
 	margin:0;
+	font-size: 24px;
 }
 
-.parallax1{
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7{
 	position:relative;
 	background-attachment: fixed;
 	background-position:center;
@@ -14,6 +15,48 @@ body {
 }
 
 .parallax1{
-	background-image:url(../img/skulls.jpg);
+	background-image:url(../img/skulls1.jpg);
+	min-height:450px;
+	margin-top:-40px;
+}
+
+.parallax2{
+	background-image:url(../img/sidewalk1.jpg);
+	min-height:400px;
+	margin-top:-40px;
+}
+
+.parallax3{
+	background-image:url(../img/light-above1.jpg);
 	min-height:500px;
+	margin-top:-40px;
+}
+
+.parallax4{
+	background-image:url(../img/catacomb1.jpg);
+	min-height:600px;
+	margin-top:-40px;
+}
+
+.parallax5{
+	background-image:url(../img/phone1.jpg);
+	min-height:600px;
+	margin:0px;
+}
+
+.parallax6{
+	background-image:url(../img/tunnel1.jpg);
+	min-height:450px;
+	margin-top:-40px;
+}
+
+.parallax7{
+	background-image:url(../img/art1.jpg);
+	min-height:400px;
+	margin-top:-40px;
+}
+
+.paragraph{
+	background-color:#333;
+	min-height:250px;
 }
