@@ -1,13 +1,10 @@
 body,html {
 	background:#333;
 	color:#f2f2f2;
-<<<<<<< HEAD
 }
 
 p{
 	padding: 10px;
-}
-=======
 	height:100%;
 	margin:0;
 	font-size: 24px;
@@ -67,4 +64,4 @@ p{
 	background-color:#333;
 	min-height:250px;
 }
->>>>>>> a576d81c7373bd976137baac2df208c64ff81748
+
