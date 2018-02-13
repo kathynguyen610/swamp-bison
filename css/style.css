@@ -1,30 +1,76 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 body,html {
 	background:#333;
 	color:#f2f2f2;
 }
 
 p{
-	padding: 10px;
-	height:100%;
-	margin:0;
-	font-size: 24px;
+	height:auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:1.4em;
+	line-height:1.6em;
+	padding:1em 2em 1em 2em;
+	max-width:900px;
+	margin:0 auto;
 }
-
+/*
 h1, p{
 	margin-left: 4%;
 	margin-right: 4%;
-}
+}*/
 
 h1{
-	margin-top: 40px;
 	font-size: 4em;
 	font-family: 'Creepster', cursive;
+	 /*margin-top:40px;*/
+
 }
 
 
-p{
-	font-family: 'Source Sans Pro', sans-serif;
-}
+
 
 .parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6, .parallax7{
 	position:relative;
@@ -32,52 +78,81 @@ p{
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-color:#111;
 }
 
 .parallax1{
-	background-image:url(../img/skulls1.jpg);
+	background-image:
+	linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/skulls1.jpg);
 	min-height:450px;
-	margin-top:-40px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align:center;
+	/*margin-top:-40px;*/
 }
 
 .parallax2{
 	background-image:url(../img/sidewalk1.jpg);
-	min-height:400px;
-	margin-top:-40px;
+	/*min-height:400px;*/
+	/*margin-top:-40px;*/
 }
 
 .parallax3{
-	background-image:url(../img/light-above1.jpg);
-	min-height:500px;
-	margin-top:-40px;
+	background-image:
+	linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/light-above1.jpg);
+	/*min-height:500px;*/
+	/*margin-top:-40px;*/
 }
 
 .parallax4{
 	background-image:url(../img/catacomb1.jpg);
-	min-height:600px;
-	margin-top:-40px;
+	/*min-height:600px;*/
+	/*margin-top:-40px;*/
 }
 
 .parallax5{
-	background-image:url(../img/phone1.jpg);
-	min-height:600px;
-	margin:0px;
+	background-image:
+	linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(../img/phone1.jpg);
+	/*min-height:600px;
+	margin:0px;*/
 }
 
 .parallax6{
-	background-image:url(../img/tunnel1.jpg);
-	min-height:450px;
-	margin-top:-40px;
+	background-image:
+	linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(../img/tunnel1.jpg);
+	/*min-height:450px;*/
+	/*margin-top:-40px;*/
 }
 
 .parallax7{
-	background-image:url(../img/art1.jpg);
-	min-height:400px;
-	margin-top:-40px;
+	background-image:
+	linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6)
+    ), url(../img/art1.jpg);
+	/*min-height:400px;*/
+	padding-bottom:3em;
+	/*margin-top:-40px;*/
 }
 
-.paragraph{
-	background-color:#333;
-	min-height:250px;
+.paragraph {
+	background-color:#111;
+	height:auto;
+
 }
 
