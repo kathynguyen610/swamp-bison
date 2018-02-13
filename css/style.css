@@ -55,6 +55,7 @@ p{
 	padding:1em 2em 1em 2em;
 	max-width:900px;
 	margin:0 auto;
+	text-shadow: 0 0 5px #000;
 }
 /*
 h1, p{
@@ -142,8 +143,8 @@ h1{
 .parallax7{
 	background-image:
 	linear-gradient(
-      rgba(0, 0, 0, 0.6), 
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
     ), url(../img/art1.jpg);
 	/*min-height:400px;*/
 	padding-bottom:3em;
