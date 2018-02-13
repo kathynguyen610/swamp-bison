@@ -1,0 +1,2 @@
+# Exquisite Corpse 
+This project is worked on collaboratively by the team Swamp Bison. Together, we created a story in which a girl falls into a hole and goes on an adventure. The layout uses parallax scrolling and use of dark colors. Images were found on Unsplash. 
